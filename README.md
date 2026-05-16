@@ -1,16 +1,19 @@
-## Hi there 👋
+# Gil Hermanns
 
-<!--
-**gilhermanns/gilhermanns** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Finance student with a focus on M&A, Private Equity, and Investment Banking. I combine financial modeling with Python-based automation to build efficient valuation tools.
 
-Here are some ideas to get you started:
+## Featured Projects
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### [Modern Automated DCF](https://github.com/gilhermanns/modern-automated-dcf)
+A Python-based tool for performing Discounted Cash Flow (DCF) valuations. It automates data retrieval via `yfinance` and generates comprehensive Excel reports.
+
+### [Modern Automated LBO](https://github.com/gilhermanns/modern-automated-lbo)
+An automated Leveraged Buyout (LBO) modeling tool that calculates deal economics, debt paydown, and returns (IRR/MOIC) based on market data.
+
+## Skills
+- **Finance:** M&A, Private Equity, Financial Modeling (DCF, LBO), Valuation.
+- **Programming:** Python (Pandas, NumPy, Matplotlib), Automation, Data Analysis.
+- **Languages:** German (Native), English (Fluent).
+
+## Contact
+- [GitHub](https://github.com/gilhermanns)
