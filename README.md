@@ -1,31 +1,47 @@
-# Hi, I'm Gil Hermanns 👋
+# Hallo, ich bin Gil Hermanns 👋
 
-Finance student and Python enthusiast dedicated to bridging the gap between deep financial analysis and modern automation. My work focuses on building robust, rule-based tools for complex valuation and investment screening.
+Ich bin ein engagierter Finanzstudent und Python-Enthusiast, der sich darauf spezialisiert hat, die Lücke zwischen fundierter Finanzanalyse und moderner Automatisierung zu schließen. Meine Arbeit konzentriert sich auf die Entwicklung robuster, regelbasierter Tools für komplexe Bewertungsmodelle und Investment-Screenings, ergänzt durch innovative KI-Anwendungen.
 
-## 🎯 Areas of Interest
-- **M&A & Private Equity**: Automated DCF and LBO modeling for rapid deal triage.
-- **Asset Management**: Quantitative frameworks for portfolio optimization and risk assessment.
-- **Quantitative Finance**: Applying statistical models to DACH and global equity markets.
-- **Financial Automation**: Streamlining data ingestion and reporting workflows using Python.
+## 🎯 Interessensgebiete
 
-## 🚀 Featured Projects
+-   **M&A & Private Equity**: Automatisierte DCF- und LBO-Modellierung für eine schnelle Deal-Triage und Bewertung.
+-   **Asset Management**: Quantitative Frameworks für Portfoliooptimierung, Risikobewertung und Performance-Analyse.
+-   **Quantitative Finance**: Anwendung statistischer Modelle und maschinellen Lernens auf DACH- und globale Aktienmärkte.
+-   **Finanzielle Automatisierung**: Optimierung von Datenaufnahme, -verarbeitung und Berichtswesen mittels Python und modernen Webtechnologien.
+-   **KI in der Finanzwelt**: Entwicklung von intelligenten Systemen für Marktanalyse, Research und Simulation.
+
+## 🚀 Ausgewählte Projekte
+
+### [Portfolio Intelligence Platform (Basis)](https://github.com/gilhermanns/portfolio-intelligence-platform)
+Eine institutionelle, KI-gestützte Investment-Dashboard-Plattform. Sie bietet Live-Portfolio-P&L, Asset-Allokations-Charts, Risikobewertung und Marktinformationen über verschiedene Anlageklassen hinweg. Entwickelt mit React, tRPC, Express und TypeScript.
+
+### [Portfolio Intelligence Platform (Advanced mit Monte Carlo)](https://github.com/gilhermanns/portfolio-intelligence-advanced)
+Die erweiterte Version der Portfolio Intelligence Platform, die zusätzlich eine Monte-Carlo-Simulations-Engine für fortgeschrittene Risiko- und Szenarioanalysen integriert. Ideal für die Bewertung zukünftiger Portfolio-Entwicklungen unter verschiedenen Marktbedingungen.
+
+### [Portfolio Intelligence Platform (Complete)](https://github.com/gilhermanns/portfolio-intelligence-complete)
+Die vollständige Implementierung der Portfolio Intelligence Platform, die alle Funktionen der Basis- und Advanced-Versionen kombiniert. Sie umfasst umfassende Dashboards, detaillierte Portfolio- und Risikoanalysen, KI-gestützte Research-Assistenten und die Monte-Carlo-Simulation.
 
 ### [Modern Automated DCF](https://github.com/gilhermanns/modern-automated-dcf)
-A professional-grade framework for automated Discounted Cash Flow analysis. It features robust data ingestion, rule-based WACC calculation, and automated Excel reporting.
+Ein professionelles Framework für die automatisierte Discounted Cash Flow Analyse. Es zeichnet sich durch robuste Datenaufnahme, regelbasierte WACC-Berechnung und automatisierte Excel-Berichterstellung aus.
 
 ### [Modern Automated LBO](https://github.com/gilhermanns/modern-automated-lbo)
-An LBO modeling engine designed for investment screening. It automates debt schedules, returns waterfalls (IRR/MOIC), and sensitivity analysis.
+Eine LBO-Modellierungs-Engine, die für das Investment-Screening entwickelt wurde. Sie automatisiert Schuldenpläne, Renditekaskaden (IRR/MOIC) und Sensitivitätsanalysen.
 
 ### [DACH Quant Optimizer](https://github.com/gilhermanns/dach-quant-optimizer)
-A quantitative framework focused on stock optimization and portfolio construction within the DACH region.
+Ein quantitatives Framework, das sich auf die Aktienoptimierung und Portfolio-Konstruktion innerhalb der DACH-Region konzentriert.
 
-## 🛠️ Technical Stack
-- **Languages**: Python (Pandas, NumPy, Matplotlib, yfinance)
-- **Finance**: Valuation (DCF, LBO, Multiples), Risk Management, Portfolio Theory
-- **Tools**: Git, Excel Automation, SQL
+## 🛠️ Technischer Stack
 
-## 📫 Connect with me
-- **GitHub**: [gilhermanns](https://github.com/gilhermanns)
+-   **Sprachen**: Python (Pandas, NumPy, Matplotlib, yfinance), TypeScript, JavaScript
+-   **Frameworks/Bibliotheken**: React, tRPC, Express, Tailwind CSS, Vite
+-   **Finanzmodellierung**: DCF, LBO, Multiples, Risikomanagement, Portfoliotheorie, Monte-Carlo-Simulation
+-   **Tools**: Git, GitHub Actions, Excel Automation, SQL, Docker
+
+## 📫 Verbinden Sie sich mit mir
+
+-   **GitHub**: [gilhermanns](https://github.com/gilhermanns)
+-   **LinkedIn**: (Fügen Sie hier Ihren LinkedIn-Profil-Link ein)
 
 ---
-*“Focusing on the intersection of financial logic and scalable code.”*
+
+*„Fokus auf die Schnittstelle von Finanzlogik, skalierbarem Code und künstlicher Intelligenz.“*
