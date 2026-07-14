@@ -1,64 +1,45 @@
-# Hallo, ich bin Gil Hermanns 👋
+# Gil Hermanns
 
-Ich bin ein engagierter Finanzstudent und Python-Enthusiast, der sich darauf spezialisiert hat, die Lücke zwischen fundierter Finanzanalyse und moderner Automatisierung zu schließen. Meine Arbeit konzentriert sich auf die Entwicklung robuster, regelbasierter Tools für komplexe Bewertungsmodelle und Investment-Screenings, ergänzt durch innovative KI-Anwendungen.
+Finance student + Python developer building automated valuation models and deal screening tools.
 
-## 🎯 Interessensgebiete
+Currently in **M&A at John Deere** (Dealer Development); previously at **Prudentia M&A**. I focus on the intersection of financial analysis and automation—reducing manual work in deal triage, valuation, and portfolio monitoring.
 
--   **M&A & Private Equity**: Automatisierte DCF- und LBO-Modellierung für eine schnelle Deal-Triage und Bewertung.
--   **Asset Management**: Quantitative Frameworks für Portfoliooptimierung, Risikobewertung und Performance-Analyse.
--   **Quantitative Finance**: Anwendung statistischer Modelle und maschinellen Lernens auf DACH- und globale Aktienmärkte.
--   **Finanzielle Automatisierung**: Optimierung von Datenaufnahme, -verarbeitung und Berichtswesen mittels Python und modernen Webtechnologien.
--   **KI in der Finanzwelt**: Entwicklung von intelligenten Systemen für Marktanalyse, Research und Simulation.
+## What I Build
 
-## 🚀 Portfolio Intelligence Suite
+**M&A & Private Equity:**
+- **[Modern Automated DCF](https://github.com/gilhermanns/modern-automated-dcf)** — 3-statement DCF model with WACC, terminal value, sensitivities. Automates the mechanics so you get analyst-ready output in seconds instead of hours.
+- **[Modern Automated LBO](https://github.com/gilhermanns/modern-automated-lbo)** — Full LBO model: debt schedules, cash flow waterfalls, IRR/MOIC. Built for quick deal screening and returns analysis.
+- **[PE Deal Screener](https://github.com/gilhermanns/pe-deal-screener)** — NLP-based deal sourcing from news feeds. Identifies investment opportunities and flags key metrics automatically.
+- **[CIM Analyser](https://github.com/gilhermanns/cim-analyser)** — Extracts structured data from annual reports and investor presentations. Saves hours of manual data entry.
 
-Drei Entwicklungsstufen derselben Plattform — `complete` ist der aktuell gepflegte, vollständige Stand:
+**Portfolio & Wealth Management:**
+- **[Portfolio Optimizer](https://github.com/gilhermanns/portfolio-optimizer)** — Mean-Variance and Risk Parity optimization. Builds efficient portfolios across equities, bonds, alternatives with risk constraints.
+- **[Portfolio Risk Dashboard](https://github.com/gilhermanns/portfolio-risk-dashboard)** — VaR, CVaR, concentration analysis, geographic/sector exposure. Real-time risk monitoring for multi-asset portfolios.
+- **[Credit Risk Model](https://github.com/gilhermanns/credit-risk-model)** — Probability of default scoring for corporate credit portfolios.
 
-### [Portfolio Intelligence Platform (Complete)](https://github.com/gilhermanns/portfolio-intelligence-complete)
-Die vollständige Implementierung: umfassende Dashboards, Portfolio- und Risikoanalysen, KI-gestützter Research-Assistent und Monte-Carlo-Simulation. Enthält zusätzlich sieben eigenständige Quant-Finance-Projekte (siehe unten).
+**Advanced Finance:**
+- **[Walk-Forward Backtester](https://github.com/gilhermanns/walkforward-backtester)** — Out-of-sample backtesting framework for trading strategies.
+- **[Sentiment Market Signals](https://github.com/gilhermanns/sentiment-market-signals)** — NLP pipeline for market sentiment extraction from news and earnings calls.
+- **[Options & Vol Lab](https://github.com/gilhermanns/options-vol-lab)** — Option pricing, Greeks, volatility surface modeling.
+- **[DACH Quant Optimizer](https://github.com/gilhermanns/dach-quant-optimizer)** — Quantitative stock selection framework for German/Austrian/Swiss markets.
 
-### [Portfolio Intelligence Platform (Advanced)](https://github.com/gilhermanns/portfolio-intelligence-advanced)
-Zwischenstufe mit Monte-Carlo-Simulations-Engine für Risiko- und Szenarioanalysen.
+**Other:**
+- **[Pelosi Stock Tracker](https://github.com/gilhermanns/pelosi-stock-tracker)** — Automated daily tracker for Congressional stock trade disclosures. Useful for understanding insider trading patterns.
 
-### [Portfolio Intelligence Platform (Basis)](https://github.com/gilhermanns/portfolio-intelligence-platform)
-Die ursprüngliche Version: Live-Portfolio-P&L, Asset-Allokations-Charts, Risikobewertung. React, tRPC, Express, TypeScript.
+## Tech Stack
 
-## 📊 Quant Finance Projekte
+**Languages:** Python (Pandas, NumPy, Matplotlib, yfinance), TypeScript, JavaScript  
+**Frameworks:** React, tRPC, Express, Tailwind CSS, Vite  
+**Finance:** DCF, LBO, portfolio theory, Monte Carlo simulation, risk management  
+**Tools:** Git, GitHub Actions, SQL, Docker
 
--   **[Portfolio Optimizer](https://github.com/gilhermanns/portfolio-optimizer)** — Mean-Variance- und Risk-Parity-Portfoliooptimierung
--   **[Walk-Forward Backtester](https://github.com/gilhermanns/walkforward-backtester)** — Out-of-Sample-Backtesting-Framework für Handelsstrategien
--   **[Orderbook Microstructure Sim](https://github.com/gilhermanns/orderbook-microstructure-sim)** — Simulation von Marktmikrostruktur und Orderbuch-Dynamik
--   **[Portfolio Risk Dashboard](https://github.com/gilhermanns/portfolio-risk-dashboard)** — VaR/CVaR-, Konzentrations- und Exposure-Analysen
--   **[Options & Vol Lab](https://github.com/gilhermanns/options-vol-lab)** — Optionsbewertung, Greeks und Volatilitätsmodellierung
--   **[Sentiment Market Signals](https://github.com/gilhermanns/sentiment-market-signals)** — NLP-basierte Sentiment-Signale für Aktienresearch
--   **[Credit Risk Model](https://github.com/gilhermanns/credit-risk-model)** — Kreditrisiko- und Ausfallwahrscheinlichkeitsmodell
+## Why This Matters
 
-## 💼 M&A / Private Equity Tools
+At John Deere and Prudentia, I saw how much time analysts spend on repetitive valuation work. My goal is to automate the mechanics so you can focus on judgment calls—market dynamics, deal strategy, risk assessment. Every repo here is built with that principle: reduce friction, increase accuracy, scale analysis.
 
--   **[Modern Automated DCF](https://github.com/gilhermanns/modern-automated-dcf)** — Automatisierte Discounted-Cash-Flow-Bewertung mit regelbasierter WACC-Berechnung
--   **[Modern Automated LBO](https://github.com/gilhermanns/modern-automated-lbo)** — LBO-Modellierung mit Schuldenplänen, IRR/MOIC-Renditekaskaden
--   **[PE Deal Screener](https://github.com/gilhermanns/pe-deal-screener)** — NLP-gestütztes Deal-Sourcing
--   **[CIM Analyser](https://github.com/gilhermanns/cim-analyser)** — Extraktionspipeline für Jahresberichte und Investoren-Präsentationen
--   **[Financial Risk Screener](https://github.com/gilhermanns/financial-risk-screener)** — PE-taugliches Risiko-Screening
--   **[DCF Model Demo](https://github.com/gilhermanns/dcf-model-demo)** — Demonstrationsoutput des DCF-Modells
-
-## 🌍 Weitere Projekte
-
--   **[DACH Quant Optimizer](https://github.com/gilhermanns/dach-quant-optimizer)** — Quant-Framework für Aktienoptimierung im DACH-Raum
--   **[Pelosi Stock Tracker](https://github.com/gilhermanns/pelosi-stock-tracker)** — Automatisierter täglicher Tracker für Congressional-Trade-Offenlegungen mit Live-Kursen und E-Mail-Alerts
-
-## 🛠️ Technischer Stack
-
--   **Sprachen**: Python (Pandas, NumPy, Matplotlib, yfinance), TypeScript, JavaScript
--   **Frameworks/Bibliotheken**: React, tRPC, Express, Tailwind CSS, Vite
--   **Finanzmodellierung**: DCF, LBO, Multiples, Risikomanagement, Portfoliotheorie, Monte-Carlo-Simulation
--   **Tools**: Git, GitHub Actions, Excel Automation, SQL, Docker
-
-## 📫 Verbinden Sie sich mit mir
-
--   **GitHub**: [gilhermanns](https://github.com/gilhermanns)
--   **LinkedIn**: <!-- Trag hier deinen LinkedIn-Link ein, z.B. https://linkedin.com/in/dein-name -->
+For private banking and wealth management, the same logic applies: portfolio construction, risk monitoring, and performance analysis should be systematic and auditable, not ad-hoc spreadsheets.
 
 ---
 
-*„Fokus auf die Schnittstelle von Finanzlogik, skalierbarem Code und künstlicher Intelligenz.“*
+**GitHub:** [gilhermanns](https://github.com/gilhermanns)  
+**LinkedIn:** [Add your profile]
