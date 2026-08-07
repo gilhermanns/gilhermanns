@@ -42,4 +42,4 @@ For private banking and wealth management, the same logic applies: portfolio con
 ---
 
 **GitHub:** [gilhermanns](https://github.com/gilhermanns)  
-**LinkedIn:** [Add your profile]
+**LinkedIn:** [gil-hermanns](https://www.linkedin.com/in/gil-hermanns/)
