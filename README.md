@@ -1,53 +1,58 @@
 # Gil Hermanns
 
-Finance student building practical tools at the intersection of **financial analysis, investment research and software**.
+**Business Administration student focused on finance, M&A and investment research — building transparent analytical tools in Python and TypeScript.**
 
-I am currently working in **M&A at John Deere (Dealer Development / PMI)** and previously worked at **Prudentia M&A**. My GitHub documents how I approach financial questions: define the decision, structure the data, implement the model, test the assumptions and present the result in a form that an analyst, advisor or investment professional can review.
+I currently work in **M&A / PMI at John Deere (Dealer Development)** and previously worked at **Prudentia M&A**. This portfolio shows how I approach a finance question from first principles: define the decision, structure the data, make assumptions explicit, implement the analysis, test it and present an output that another analyst can review.
 
-## What I build
+## A 30-second overview
 
-The projects below are research and educational tools rather than investment advice. Their common theme is turning recurring finance workflows into transparent, reproducible analysis.
+| Focus | What the projects demonstrate | Start here |
+|---|---|---|
+| Portfolio & markets | Portfolio construction, risk communication, market structure and research workflows | [Portfolio Intelligence Platform](https://github.com/gilhermanns/portfolio-intelligence-complete) · [Portfolio Optimizer](https://github.com/gilhermanns/portfolio-optimizer) · [Portfolio Risk Dashboard](https://github.com/gilhermanns/portfolio-risk-dashboard) |
+| M&A & Private Equity | DCF and LBO scenario analysis, CIM extraction and structured deal screening | [Modern Automated DCF](https://github.com/gilhermanns/modern-automated-dcf) · [Modern Automated LBO](https://github.com/gilhermanns/modern-automated-lbo) · [CIM Analyser](https://github.com/gilhermanns/cim-analyser) |
+| Research implementation | Reproducible reports, automated checks and clearly documented limitations | [PE Deal Screener](https://github.com/gilhermanns/pe-deal-screener) · [Credit Risk Model](https://github.com/gilhermanns/credit-risk-model) |
 
-### Portfolio Intelligence
+The repositories are research and educational tools, not investment advice. Their common theme is converting recurring finance workflows into **transparent, reproducible analysis** rather than black-box recommendations.
 
-- **[Portfolio Intelligence Platform — Complete](https://github.com/gilhermanns/portfolio-intelligence-complete)** — Portfolio monitoring, asset allocation, risk analysis, market intelligence and research workflows. The earlier `platform` and `advanced` versions are archived development stages.
+## Project map
 
-### Private Banking, Wealth Management & Markets
+### Portfolio intelligence, wealth management & markets
 
-- **[Portfolio Optimizer](https://github.com/gilhermanns/portfolio-optimizer)** — Mean-variance, minimum-variance, risk-parity and Black-Litterman allocation with constraints, turnover-aware backtesting and auditable reports.
-- **[Portfolio Risk Dashboard](https://github.com/gilhermanns/portfolio-risk-dashboard)** — VaR, Expected Shortfall, concentration, factor attribution, correlation regimes and historical stress analysis.
-- **[Credit Risk Model](https://github.com/gilhermanns/credit-risk-model)** — Interpretable probability-of-default modelling, calibration, explainability and expected-loss simulation.
-- **[Options & Volatility Lab](https://github.com/gilhermanns/options-vol-lab)** — Pricing, Greeks, implied volatility and Heston volatility-surface calibration.
-- **[Walk-Forward Backtester](https://github.com/gilhermanns/walkforward-backtester)** — Out-of-sample validation, execution frictions and regime analysis for systematic strategies.
-- **[Orderbook Microstructure Simulator](https://github.com/gilhermanns/orderbook-microstructure-sim)** — Order-book dynamics, execution quality and market-making mechanics.
-- **[Sentiment Market Signals](https://github.com/gilhermanns/sentiment-market-signals)** — A research pipeline linking text classification with event studies, lag tests, volatility analysis and cost-aware backtests.
+- **[Portfolio Intelligence Platform — Complete](https://github.com/gilhermanns/portfolio-intelligence-complete)** — A portfolio-research dashboard prototype covering allocation, risk, scenario analysis, watchlists and market intelligence. Earlier `platform` and `advanced` versions are archived development stages.
+- **[Portfolio Optimizer](https://github.com/gilhermanns/portfolio-optimizer)** — Constrained mean-variance, minimum-variance, risk-parity and Black-Litterman allocation with turnover-aware backtests and versioned reports.
+- **[Portfolio Risk Dashboard](https://github.com/gilhermanns/portfolio-risk-dashboard)** — Historical VaR and Expected Shortfall, concentration, factor attribution, correlation regimes and stress analysis.
+- **[Credit Risk Model](https://github.com/gilhermanns/credit-risk-model)** — Probability-of-default modelling, calibration checks, explainability and expected-loss scenarios using explicitly documented synthetic data.
+- **[Options & Volatility Lab](https://github.com/gilhermanns/options-vol-lab)** — Option pricing, Greeks, implied volatility and Heston volatility-surface calibration.
+- **[Walk-Forward Backtester](https://github.com/gilhermanns/walkforward-backtester)** — Out-of-sample strategy validation with execution frictions, benchmark comparison and regime analysis.
+- **[Orderbook Microstructure Simulator](https://github.com/gilhermanns/orderbook-microstructure-sim)** — Market microstructure, execution quality and simulated order-book dynamics.
+- **[Sentiment Market Signals](https://github.com/gilhermanns/sentiment-market-signals)** — Text classification, event studies, lag tests, volatility analysis and cost-aware backtests, including negative findings.
 - **[DACH Quant Optimizer](https://github.com/gilhermanns/dach-quant-optimizer)** — Quantitative research framework for German, Austrian and Swiss equity markets.
 
-### M&A, Private Equity & Corporate Finance
+### M&A, private equity & corporate finance
 
-- **[Modern Automated DCF](https://github.com/gilhermanns/modern-automated-dcf)** — Three-statement DCF valuation with WACC, terminal value and sensitivity analysis.
-- **[Modern Automated LBO](https://github.com/gilhermanns/modern-automated-lbo)** — Debt schedules, cash-flow waterfalls and IRR / MOIC return analysis.
-- **[PE Deal Screener](https://github.com/gilhermanns/pe-deal-screener)** — Structured deal triage and screening for Private Equity research.
-- **[CIM Analyser](https://github.com/gilhermanns/cim-analyser)** — Extraction and structuring of information from CIMs, annual reports and investor presentations.
-- **[Financial Risk Screener](https://github.com/gilhermanns/financial-risk-screener)** — Forensic accounting, earnings-quality checks and red-flag screening.
-- **[DCF Model Demo](https://github.com/gilhermanns/dcf-model-demo)** — Demonstration of valuation inputs, outputs and sensitivity reporting.
+- **[Modern Automated DCF](https://github.com/gilhermanns/modern-automated-dcf)** — Three-statement DCF scenario analysis with WACC, terminal value and sensitivity tables.
+- **[Modern Automated LBO](https://github.com/gilhermanns/modern-automated-lbo)** — Debt schedules, cash-flow waterfalls and MOIC / IRR scenario analysis.
+- **[PE Deal Screener](https://github.com/gilhermanns/pe-deal-screener)** — Structured deal triage using an explicit mock-data path and versioned screening output.
+- **[CIM Analyser](https://github.com/gilhermanns/cim-analyser)** — Rule-based extraction and structuring of information from mock CIMs, annual reports and investor presentations, with a human-validation gate.
+- **[Financial Risk Screener](https://github.com/gilhermanns/financial-risk-screener)** — Earnings-quality, working-capital and disclosure-risk screening with a generated HTML review report.
+- **[DCF Model Demo](https://github.com/gilhermanns/dcf-model-demo)** — Export-oriented DCF demonstration with versioned workbook outputs and a documented smoke check.
 
-### Market-data automation
+### Public disclosure monitoring
 
-- **[Pelosi Stock Tracker](https://github.com/gilhermanns/pelosi-stock-tracker)** — Scheduled workflow for Congressional trade disclosures, market-data enrichment and email reporting.
+- **[Congressional Disclosure Monitor (Pelosi Stock Tracker)](https://github.com/gilhermanns/pelosi-stock-tracker)** — Monitoring of delayed public congressional disclosures with market context. It is informational only and does not copy, score or recommend transactions.
 
-## Technical stack
+## Technical practice
 
 **Languages:** Python, TypeScript and JavaScript
-**Finance and data:** pandas, NumPy, SciPy, scikit-learn, cvxpy, Matplotlib and market-data APIs
+
+**Finance & data:** pandas, NumPy, SciPy, scikit-learn, cvxpy, Matplotlib and market-data APIs
+
 **Applications:** React, tRPC, Express, Tailwind CSS and Vite
-**Practices:** Git, GitHub Actions, SQL, testing, reproducible reports and documented limitations
+**Working method:** Git, GitHub Actions, SQL, tests, versioned reports, explicit data scope and documented limitations
 
 ## Why this matters
 
-Private banking and wealth management require more than isolated calculations. They require a broad market perspective, disciplined risk communication and the ability to translate client or portfolio questions into a repeatable process. M&A and Private Equity add the same discipline from a transaction perspective: understand the business, test the assumptions, identify the risks and make the output reviewable.
-
-That is the capability I am building through this portfolio: **finance judgment supported by structured, transparent and maintainable technology**.
+Private banking, wealth management and asset management require a broad view of markets, risk and client constraints. M&A and private equity require the same discipline from a transaction perspective: understand the business, challenge assumptions, identify risks and make the output reviewable. This is the capability I am developing through the portfolio: **sound finance judgment supported by structured, maintainable technology**.
 
 ---
 
